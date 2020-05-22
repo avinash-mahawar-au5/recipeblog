@@ -10,7 +10,7 @@ let Cuisines = db.define('cusines', {
 	},
 	cuisine_name: {
 		type: Sequelize.STRING,
-		allowNull: false,
+		// allowNull: false,
 	},
 });
 
